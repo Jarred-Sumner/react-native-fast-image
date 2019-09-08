@@ -169,7 +169,7 @@
                 break;
             case FFFCacheControlDisable:
                 options |= SDImageCacheTypeNone;
-                options |= SDWebImageFromLoaderOnly
+                options |= SDWebImageFromLoaderOnly;
                 break;
             case FFFCacheControlImmutable:
                 break;
